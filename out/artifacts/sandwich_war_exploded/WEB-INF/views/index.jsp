@@ -11,7 +11,7 @@
     <title>Sandwich Condiments</title>
   </head>
   <body>
-  <form action="/save" method="get">
+  <form action="/save" method="post">
     <h3>Sandwich Condiments</h3>
     <table>
       <tr>
@@ -30,7 +30,9 @@
         <td><input type="checkbox" name="condiment" value="Sprouts"></td>
         <td>Sprouts</td>
       </tr>
-      <tr><input type="submit" value="Save"></tr>
+      <tr>
+        <td><input type="submit" value="Save"></td>
+      </tr>
     </table>
   </form>
   </body>
